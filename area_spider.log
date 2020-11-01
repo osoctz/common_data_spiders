@@ -1,0 +1,41 @@
+2020-11-01 10:21:08 [scrapy.utils.log] INFO: Scrapy 2.4.0 started (bot: common_data_spiders)
+2020-11-01 10:21:08 [scrapy.utils.log] INFO: Versions: lxml 4.6.1.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1h  22 Sep 2020), cryptography 3.2.1, Platform Windows-10-10.0.19041-SP0
+2020-11-01 10:21:08 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'common_data_spiders',
+ 'CONCURRENT_REQUESTS': 100,
+ 'DOWNLOAD_DELAY': 0.5,
+ 'LOG_FILE': 'area_spider.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'common_data_spiders.spiders',
+ 'SPIDER_MODULES': ['common_data_spiders.spiders']}
+2020-11-01 10:21:08 [scrapy.extensions.telnet] INFO: Telnet Password: 1933d6c4242ffec4
+2020-11-01 10:21:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-11-01 10:21:09 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-11-01 10:21:09 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-11-01 10:21:09 [scrapy.middleware] INFO: Enabled item pipelines:
+['common_data_spiders.pipelines.CommonDataSpidersPipeline']
+2020-11-01 10:21:09 [scrapy.core.engine] INFO: Spider opened
+2020-11-01 10:21:09 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-11-01 10:21:09 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-11-01 10:21:25 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2020-11-01 10:21:25 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2020-11-01 10:21:25 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
