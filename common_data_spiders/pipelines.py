@@ -12,7 +12,7 @@ import pymysql
 class CommonDataSpidersPipeline:
     def __init__(self):
         # connection database
-        self.connect = pymysql.connect(host='127.0.0.1', user='root', passwd='123456',
+        self.connect = pymysql.connect(host='uaa.metaq.cn', user='root', passwd='123456',port=13306,
                                        db='common_srv')  # 后面三个依次是数据库连接名、数据库密码、数据库名称
         # get cursor
         self.cursor = self.connect.cursor()
